@@ -36,7 +36,7 @@ INSERT INTO acs2016_5yr.geoheader  SELECT
 	NULLIF(btrim(substring(all_fields  from  119  for  3)),  '')  AS  sldl,
 	NULLIF(btrim(substring(all_fields  from  122  for  6)),  '')  AS  blank2,
 	NULLIF(btrim(substring(all_fields  from  128  for  3)),  '')  AS  blank3,
-	NULLIF(btrim(substring(all_fields  from  131  for  5)),  '')  AS  blank4,
+	NULLIF(btrim(substring(all_fields  from  131  for  5)),  '')  AS  zcta5,
 	NULLIF(btrim(substring(all_fields  from  136  for  5)),  '')  AS  submcd,
 	NULLIF(btrim(substring(all_fields  from  141  for  5)),  '')  AS  sdelm,
 	NULLIF(btrim(substring(all_fields  from  146  for  5)),  '')  AS  sdsec,
